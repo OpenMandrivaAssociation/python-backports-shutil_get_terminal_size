@@ -21,8 +21,7 @@ so it might be a tiny bit slower.
 
 %package -n python2-%{fedname}
 Summary:        %{sum}
-Requires:       python-backports
-%{?python_provide:%python_provide python2-%{fedname}}
+Requires:       python2-backports
 
 %description -n python2-%{fedname}
 A backport of the get_terminal_size function from Python 3.3’s shutil.
