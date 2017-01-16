@@ -13,6 +13,7 @@ Source0:        https://files.pythonhosted.org/packages/source/b/%{srcname}/%{sr
 BuildArch:      noarch
 
 BuildRequires:  python2-devel
+BuildRequires:	python2-setuptools
 
 %description
 A backport of the get_terminal_size function from Python 3.3’s shutil.
